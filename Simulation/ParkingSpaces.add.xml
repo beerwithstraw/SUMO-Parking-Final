@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 03/04/21 02:10:39 by Eclipse SUMO netedit Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="D:\Desktop%20Work\GitHub\Parking-Simulation-SUMO\ParkingLayout2\Layout.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="D:\Desktop%20Work\GitHub\Parking-Simulation-SUMO\ParkingLayout2\Layout.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="true"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="D:\Desktop%20Work\GitHub\Parking-Simulation-SUMO\ParkingLayout2\ParkingSpaces.add.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+<parkingArea id="1" lane="1a_0" startPos="4.90" endPos="61.00" length="5" friendlyPos="1" roadsideCapacity="14" angle="90.00">
+        <!-- <space x="408.22" y="-790.00" width="3.20" angle="90.00"/>
+        <space x="408.22" y="-787.00" width="3.20" angle="90.00"/> -->
+        <!-- <space x="408.22" y="-784.00" width="3.00" angle="90.00"/>
+        <space x="408.22" y="-781.00" width="3.00" angle="90.00"/>
+        <space x="408.22" y="-778.00" width="3.00" angle="90.00"/>
+        <space x="408.22" y="-775.00" width="3.00" angle="90.00"/>
+        <space x="408.22" y="-772.00" width="3.00" angle="90.00"/>
+        <space x="408.22" y="-769.00" width="3.00" angle="90.00"/>
+        <space x="408.22" y="-766.00" width="3.00" angle="90.00"/>
+        <space x="408.22" y="-763.00" width="3.00" angle="90.00"/>
+        <space x="408.22" y="-760.00" width="3.00" angle="90.00"/>
+        <space x="408.22" y="-757.00" width="3.00" angle="90.00"/>
+        <space x="408.22" y="-754.00" width="3.00" angle="90.00"/>
+        <space x="408.22" y="-751.00" width="3.00" angle="90.00"/>
+        <space x="408.22" y="-748.00" width="3.00" angle="90.00"/>
+        <space x="408.22" y="-745.00" width="3.00" angle="90.00"/>
+        <space x="408.22" y="-742.00" width="3.00" angle="90.00"/> -->
+
+    </parkingArea>
+    <parkingArea id="2" lane="1b_0" startPos="12.90" endPos="69.10" length="5" friendlyPos="1" roadsideCapacity="14" angle="90.00">
+        <!-- <space x="396.80" y="-790" width="3.00" angle="90.00"/>
+        <space x="396.80" y="-787" width="3.00" angle="90.00"/>
+        <space x="396.80" y="-784" width="3.00" angle="90.00"/>
+        <space x="396.80" y="-781" width="3.00" angle="90.00"/>
+        <space x="396.80" y="-778" width="3.00" angle="90.00"/>
+        <space x="396.80" y="-775" width="3.00" angle="90.00"/>
+        <space x="396.80" y="-772" width="3.00" angle="90.00"/>
+        <space x="396.80" y="-769" width="3.00" angle="90.00"/>
+        <space x="396.80" y="-766" width="3.00" angle="90.00"/>
+        <space x="396.80" y="-763" width="3.00" angle="90.00"/>
+        <space x="396.80" y="-760" width="3.00" angle="90.00"/>
+        <space x="396.80" y="-757" width="3.00" angle="90.00"/>
+        <space x="396.80" y="-754" width="3.00" angle="90.00"/>
+        <space x="396.80" y="-751" width="3.00" angle="90.00"/>
+        <space x="396.80" y="-748" width="3.00" angle="90.00"/>
+        <space x="396.80" y="-745" width="3.00" angle="90.00"/>
+        <space x="396.80" y="-742" width="3.00" angle="90.00"/> -->
+    </parkingArea>
+    <parkingArea id="3" lane="3b_0" startPos="5.00" endPos="43.00" length="5" friendlyPos="1" roadsideCapacity="12" angle="90.00"></parkingArea>
+    <parkingArea id="4" lane="3a_0" startPos="2.00" endPos="40.00" length="5" friendlyPos="1" roadsideCapacity="12" angle="90.00"/>
+    <parkingArea id="5" lane="5_0" startPos="2.00" endPos="38.00" length="5" friendlyPos="1" roadsideCapacity="14" angle="90.00"/>
+    <!-- <rerouter id="rerouter_0" edges="1a" pos="400.00,-790.00"/> -->
+
+</additional>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+	<input>
+		<net-file value="Layout.net.xml"/>
+        <route-files value="car.rou.xml"/>
+		<additional-files value="ParkingSpaces.add.xml,vehicles.vType.xml"/>
+	</input>
+
+	
+    <time>
+        <begin value="0.0"/>
+        <step-length value=".25"/>
+        <!-- <end value="3600.0"/> -->
+    </time>
+
+</configuration>

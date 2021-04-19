@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 04/15/21 15:28:33 by Eclipse SUMO GUI Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="Layout.net.xml"/>
+        <route-files value="car.rou.xml"/>
+        <additional-files value="ParkingSpaces.add.xml,vehicles.vType.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="tripinfo.xml"/>
+    </output>
+
+    <time>
+        <begin value="0.0"/>
+        <step-length value=".25"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="63809"/>
+    </traci_server>
+
+    <gui_only>
+        <tracker-interval value="0.25"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+</tripinfos>
+id="GHI123" depart="71.00" departLane="0a_0" departPos="4.60" departSpeed="0.00" departDelay="0.50" arrival="115.25" arrivalLane="0b_0" arrivalPos="30.00" arrivalSpeed="7.80" duration="44.25" routeLength="195.40" waitingTime="0.00" waitingCount="0" stopTime="12.25" timeLoss="7.48" rerouteNo="1" devices="tripinfo_GHI123 routing_GHI123" vType="reroutingType" speedFactor="1.08" vaporized=""/>
+    <tripinfo id="BBB123" depart="66.50" departLane="0a_0" departPos="4.60" departSpeed="0.00" departDelay="0.00" arrival="126.50" arrivalLane="0b_0" arrivalPos="30.00" arrivalSpeed="7.96" duration="60.00" routeLength="346.22" waitingTime="0.00" waitingCount="0" stopTime="11.00" timeLoss="5.67" rerouteNo="2" devices="tripinfo_BBB123 routing_BBB123" vType="reroutingType" speedFactor="0.94" vaporized=""/>
+    <tripinfo id="AAA123" depart="57.50" departLane="0a_0" departPos="4.60" departSpeed="0.00" departDelay="0.00" arrival="128.50" arrivalLane="0b_0" arrivalPos="30.00" arrivalSpeed="7.74" duration="71.00" routeLength="323.68" waitingTime="0.00" waitingCount="0" stopTime="24.25" timeLoss="6.16" rerouteNo="1" devices="tripinfo_AAA123 routing_AAA123" vType="reroutingType" speedFactor="1.06" vaporized=""/>
+</tripinfos>

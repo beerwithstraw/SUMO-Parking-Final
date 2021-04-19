@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 04/13/21 16:30:44 by Eclipse SUMO netedit Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\hp\Desktop\SUMOParking\App\Simulation\Layout.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\hp\Desktop\SUMOParking\App\Simulation\Layout.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="true"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="C:\Users\hp\Desktop\SUMOParking\App\Simulation\rerouter.add.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <parkingArea id="1" lane="1a_0" startPos="4.90" endPos="61.00" roadsideCapacity="14" friendlyPos="1" length="5" angle="90.00"/>
+    <parkingArea id="2" lane="1b_0" startPos="12.90" endPos="69.10" roadsideCapacity="14" friendlyPos="1" length="5" angle="90.00"/>
+    <parkingArea id="3" lane="3b_0" startPos="5.00" endPos="43.00" roadsideCapacity="12" friendlyPos="1" length="5" angle="90.00"/>
+    <parkingArea id="4" lane="3a_0" startPos="2.00" endPos="40.00" roadsideCapacity="12" friendlyPos="1" length="5" angle="90.00"/>
+    <parkingArea id="5" lane="5_0" startPos="2.00" endPos="38.00" roadsideCapacity="14" friendlyPos="1" length="5" angle="90.00"/>
+    <rerouter id="rerouter_0" edges="1a" pos="401.40,-791.17"/>
+</additional>
