@@ -1,0 +1,10 @@
+{
+  "devToolsPort": 19003,
+  "expoServerPort": 19001,
+  "packagerPort": 19001,
+  "expoServerNgrokUrl": "https://i8-m3n.enchantedfalcon.app.exp.direct",
+  "packagerNgrokUrl": "https://packager.i8-m3n.enchantedfalcon.app.exp.direct",
+  "ngrokPid": 16960,
+  "webpackServerPort": 19007,
+  "packagerPid": null
+}
